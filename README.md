@@ -1,2 +1,3 @@
 # topFlexProject
-The Odin Project - First flex project
+The Odin Project - First Landing Page
+
