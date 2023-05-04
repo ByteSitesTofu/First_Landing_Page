@@ -1,0 +1,88 @@
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-around;
+  background-color: #0d160b;
+}
+
+.navbar_logo {
+  background-color: #14bdeb;
+  border-radius: 50%;
+  height: 90%;
+  align-self: center;
+}
+
+.navbar_logo img {
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  color: white;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.main_class_about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0d160b;
+  align-items: center;
+  gap: 50px;
+}
+
+.about_paragraph {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex: 1;
+  padding-left: 100px;
+  gap: 15px;
+}
+
+.about_paragraph h1 {
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+.about_paragraph p {
+  width: 600px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.about_paragraph button {
+  width: 100px;
+  height: 40px;
+  background-color: #14bdeb;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 6px;
+}
+
+.main_class_about_image {
+  display: flex;
+  flex: 1;
+}
+
+.main_class_about_image img {
+  height: 300px;
+  width: 450px;
+  align-self: center;
+  padding: 10px 10px;
+}
