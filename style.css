@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+/* Heading */
+
 header {
   display: flex;
   flex-direction: row;
@@ -33,13 +35,15 @@ header {
   font-size: 13px;
 }
 
+/* Body 1st Layer : About */
+
 .main_class_about {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #0d160b;
   align-items: center;
-  gap: 50px;
+  padding-bottom: 50px;
 }
 
 .about_paragraph {
@@ -54,25 +58,26 @@ header {
 
 .about_paragraph h1 {
   font-weight: 900;
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 3px;
 }
 
 .about_paragraph p {
-  width: 600px;
   font-size: 15px;
   font-weight: 500;
 }
 
-.about_paragraph button {
+.about_paragraph h4 {
   width: 100px;
-  height: 40px;
+  height: 30px;
   background-color: #14bdeb;
   color: white;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
   border-radius: 6px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .main_class_about_image {
@@ -82,7 +87,101 @@ header {
 
 .main_class_about_image img {
   height: 300px;
-  width: 450px;
   align-self: center;
   padding: 10px 10px;
+}
+
+/* Body 2nd layer : Projects */
+
+.main_class_project {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project_title {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.project_list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-self: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.project_container p {
+  width: 200px;
+  padding: 10px 10px;
+  font-weight: 500;
+}
+
+.box {
+  height: 250px;
+  width: 200px;
+  background-color: white;
+  border: 5px solid #084354b4;
+  border-radius: 10px;
+}
+
+/* Body 3rd Layer: quote */
+
+.main_class_quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-color: #E2E1B9;
+}
+
+.main_class_quote p {
+  font-weight: 700;
+  font-size: 30px;
+  width: 900px;
+  font-style: italic;
+}
+
+/* Body 4th Layer: Contacts */
+
+.main_class_contacts {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_card {
+  background-color: #14bdeb;
+  height: 150px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  gap: 10px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #0D160B;
+  color: white;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 18px;
 }
